@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+
+{% block content %}
+    {% include 'security_message.html'%}
+    <h2>Форма коментария</h2>
+    <form method="POST">
+        {% csrf_token %}
+        {% bootstrap_form form %
+        <button class="btn btn-lg btn-info "> Сохранить_1 </button>
+
+    </form>
+
+
+{% endblock %}

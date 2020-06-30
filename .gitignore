@@ -1,0 +1,6 @@
+db.sqlite3
+venv/
+__pycache__/
+sqlite3.exe
+*.pyc 
+media 
